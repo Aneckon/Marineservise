@@ -864,6 +864,9 @@
     }
 }
 @media (max-width: 768px) {
+    .fixed{
+        overflow: hidden;
+    }
     .lista__btn{
         padding: 17px 67px;
     }
@@ -896,6 +899,7 @@
         left: 0;
         top: 0;
         padding: 18px 21px;
+        overflow: scroll;
         background-color: rgb(255, 255, 255);
         background-image: url('../img/bg__menu.png');
         background-size: 100%;

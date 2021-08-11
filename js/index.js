@@ -35,5 +35,6 @@ var swiper = new Swiper(".mySwiper", {
     $('.header__burder-img').click(function() {
         $('.header__burder-img').toggleClass('menu__remove');
         $('.header__nav').toggleClass('menu__open');
+        $('body').toggleClass('fixed');
     });
 });
